@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.hubworld"
+       name="hubworld.com"
+       version="0.0.1"
+       provider-name="dethfeet">
+  <requires>
+   <import addon="xbmc.python" version="2.0"/>
+    <import addon="xbmc.gui" version="2.11"/>
+    <import addon="script.module.pyamf" version="0.6.1"/>
+   </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <platform>all</platform>
+    <summary lang="en">www.hubworld.com</summary>
+    <description lang="en">The Hub TV network is where you'll find rockin' shows like Transformers Prime, My Little Pony Friendship is Magic, Strawberry Shortcake Berry Bitty Adventures, Pound Puppies, and two super creepy shows -- The Haunting Hour, and Goosebumps -- from the master of kid horror:  R.L. Stine's.  And there are the cool game shows like Family Game Night, Scrabble Showdown, and Game of Life.  Tune in weekly, only on the Hub!</description>
+  </extension>
+</addon>
